@@ -1,13 +1,10 @@
-export default (props) => (
-  <div>
-    {
-      props.expenses.map(
-        (expense) => (
-          <p>{expense.description}</p>
-          <p>{expense.amount}</p>
-          <p>{expense.note}</p>
-        )
-      )
-    }
-  </div>
-);
+import React from 'react';
+
+export default ({ description, amount, createdAt }) => {
+  return (
+    <div>
+      <p>{description}</p>
+      <p>{amount} - {createdAt}</p>
+    </div>
+  );
+}
