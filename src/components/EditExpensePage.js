@@ -4,7 +4,11 @@ import ExpenseForm from './ExpenseForm';
 const EditExpensePage = () => (
   <div>
     <h1>Edit Expense</h1>
-    <ExpenseForm />
+    <ExpenseForm
+      onSubmit={(expense) => {
+        console.log(expense)
+      }}
+    />
   </div>
 );
 
