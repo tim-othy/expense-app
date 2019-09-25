@@ -4,8 +4,7 @@ const filtersDefaultState = {
   text: '',
   sortBy: 'date',
   startDate: moment().startOf('month'),
-  endDate: moment().endOf('monet'),
-  endDate: undefined,
+  endDate: moment().endOf('month'),
 };
 
 export default (state = filtersDefaultState, action) => {
