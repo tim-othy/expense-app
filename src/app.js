@@ -6,6 +6,8 @@ import configureStore from './store/configureStore';
 
 import getVisibleExpenses from './selectors/expenses';
 
+import './firebase/firebase';
+
 import 'normalize.css/normalize.css';
 import 'react-dates/lib/css/_datepicker.css';
 import './styles/styles.scss';
