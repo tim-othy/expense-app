@@ -24,6 +24,8 @@ export default (state = expensesDefaultState, action) => {
           }
         }
       )
+    case 'SET_EXPENSES':
+      return action.expenses;
     default:
       return state;
   }
