@@ -8,16 +8,21 @@ exports[`should render ExpenseListFilters correctly 1`] = `
     className="input-group"
   >
     <div
-      className="input-group__items"
+      className="input-group__item"
     >
       <input
+        className="text-input"
         onChange={[Function]}
+        placeholder="Search Expenses"
         type="text"
         value=""
       />
     </div>
-    <div>
+    <div
+      className="input-group__item"
+    >
       <select
+        className="select"
         onChange={[Function]}
         value="date"
       >
@@ -33,7 +38,9 @@ exports[`should render ExpenseListFilters correctly 1`] = `
         </option>
       </select>
     </div>
-    <div>
+    <div
+      className="input-group__item"
+    >
       <DateRangePicker
         anchorDirection="left"
         customArrowIcon={null}
@@ -130,16 +137,21 @@ exports[`should render ExpenseListFilters with alternative data correctly 1`] = 
     className="input-group"
   >
     <div
-      className="input-group__items"
+      className="input-group__item"
     >
       <input
+        className="text-input"
         onChange={[Function]}
+        placeholder="Search Expenses"
         type="text"
         value="bills"
       />
     </div>
-    <div>
+    <div
+      className="input-group__item"
+    >
       <select
+        className="select"
         onChange={[Function]}
         value="amount"
       >
@@ -155,7 +167,9 @@ exports[`should render ExpenseListFilters with alternative data correctly 1`] = 
         </option>
       </select>
     </div>
-    <div>
+    <div
+      className="input-group__item"
+    >
       <DateRangePicker
         anchorDirection="left"
         customArrowIcon={null}
